@@ -1,0 +1,132 @@
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUp .Item{
+  width: 350px;
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px #dbdbdb solid;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px 0px;
+  margin-top: 10px;
+}
+
+.SignUp .Item .logo {
+  width: 175px;
+}
+
+.SignUp .Item h2 {
+  color: #8e8e8e;
+  font-size: 17px;
+  margin: 15px;
+}
+
+.SignUp .Item .Content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignUp .Item .ByFacebook {
+  background-color: #2196F3;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.SignUp .Item .ByFacebook:focus {
+  outline: none;
+}
+
+.SignUp .Item .ByFacebook img {
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+}
+
+.SignUp .ByFacebook span {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.SignUp .or {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #8e8e8e;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.SignUp .or span {
+  font-size: 14px;
+}
+
+.SignUp .ngang {
+  display: inline-block;
+  width: 40%;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.SignUp .form-signup {
+  width: 100%;
+}
+
+.SignUp .form-signup .formItem {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  box-shadow: inset 0px 0px 0px 1px #dbdbdb;
+  background-color: #fafafa;
+  margin: 3px 0px;
+  border-radius: 3px;
+}
+
+.SignUp .form-signup button {
+  background-color: #2196F3 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 15px 0px !important;
+}
+
+.SignUp .form-signup .formItem:focus {
+  outline: none;
+}
+
+.SignUp .policy {
+  color: #8e8e8e;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px 20px;
+}
+
+.SignUp .policy span{
+  font-weight: 600;
+}
+
+.SignUp .Change-Signin {
+  font-size: 14px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.SignUp .Change-Signin a {
+  padding-left: 5px;
+  color: #2196F3;
+  font-weight: 600;
+  text-decoration: none;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../../images/logo.png";
-import facebook from "../../images/facebook.svg";
+import facebook from "../../images/facebook-white.svg";
 
 import "./style.css";
 

@@ -1,0 +1,80 @@
+{
+  "story": [
+    {
+      "id": "bf0f426f-2c39-457d-a880-8baa253afab2",
+      "userName": "Arturo Scogings",
+      "imageContent": "http://dummyimage.com/871x875.jpg/cc0000/ffffff",
+      "avatarUser": "https://robohash.org/nonadipiscisint.bmp?size=50x50&set=set1",
+      "date": "11/18/2019"
+    },
+    {
+      "id": "9d3452a8-ab0e-495b-af88-07928433ddf6",
+      "userName": "Franciska Tarbatt",
+      "imageContent": "http://dummyimage.com/999x950.jpg/dddddd/000000",
+      "avatarUser": "https://robohash.org/commodiidet.png?size=50x50&set=set1",
+      "date": "10/15/2019"
+    },
+    {
+      "id": "fd98f5a1-e15f-49a0-8daf-cce0395cc8d7",
+      "userName": "Meaghan Haddow",
+      "imageContent": "http://dummyimage.com/891x883.jpg/dddddd/000000",
+      "avatarUser": "https://robohash.org/temporeprovidentet.png?size=50x50&set=set1",
+      "date": "8/26/2019"
+    },
+    {
+      "id": "4c0fa91e-3fb5-4292-83c7-24c16ff4ab16",
+      "userName": "Catharine Moffat",
+      "imageContent": "http://dummyimage.com/828x850.jpg/ff4444/ffffff",
+      "avatarUser": "https://robohash.org/magnamdebitisconsequatur.png?size=50x50&set=set1",
+      "date": "7/27/2019"
+    },
+    {
+      "id": "8ea0b53f-9885-4c5d-b96b-08896793a0ad",
+      "userName": "Rea Siggs",
+      "imageContent": "http://dummyimage.com/718x887.bmp/ff4444/ffffff",
+      "avatarUser": "https://robohash.org/earumsitnostrum.png?size=50x50&set=set1",
+      "date": "8/26/2019"
+    }
+  ],
+  "status": [{
+    "id": "1567d628-2bec-4865-8fd3-f861b709e59f",
+    "userName": "Beauregard Sandyford",
+    "imageContent": "http://dummyimage.com/921x798.png/cc0000/ffffff",
+    "avatarUser": "https://robohash.org/ametautemconsequatur.jpg?size=50x50&set=set1",
+    "date": "6/30/2020",
+    "caption": "sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque",
+    "likeCount": 69
+  }, {
+    "id": "f863aacb-81eb-4f6d-bdd1-9265647dfce7",
+    "userName": "Andre Heineke",
+    "imageContent": "http://dummyimage.com/980x946.jpg/ff4444/ffffff",
+    "avatarUser": "https://robohash.org/consequatureosalias.jpg?size=50x50&set=set1",
+    "date": "11/22/2019",
+    "caption": "dapibus duis at velit eu est congue elementum in hac habitasse",
+    "likeCount": 37
+  }, {
+    "id": "420f10cd-c1b0-41f4-b52e-bd505f5bd431",
+    "userName": "Lauree McGilben",
+    "imageContent": "http://dummyimage.com/905x918.bmp/dddddd/000000",
+    "avatarUser": "https://robohash.org/nobismolestiaeaut.png?size=50x50&set=set1",
+    "date": "7/11/2020",
+    "caption": "vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem",
+    "likeCount": 75
+  }, {
+    "id": "dd79dab0-573d-4cf5-8b1e-6169a750a42b",
+    "userName": "Robby Paulusch",
+    "imageContent": "http://dummyimage.com/937x724.bmp/dddddd/000000",
+    "avatarUser": "https://robohash.org/inadest.jpg?size=50x50&set=set1",
+    "date": "10/19/2019",
+    "caption": "proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie",
+    "likeCount": 12
+  }, {
+    "id": "3183f256-9109-4cc7-943f-62c35738120f",
+    "userName": "Casandra Castellini",
+    "imageContent": "http://dummyimage.com/879x794.png/5fa2dd/ffffff",
+    "avatarUser": "https://robohash.org/estutvoluptas.png?size=50x50&set=set1",
+    "date": "3/29/2020",
+    "caption": "elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien",
+    "likeCount": 99
+  }]
+}

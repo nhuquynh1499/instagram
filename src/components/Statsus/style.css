@@ -1,0 +1,108 @@
+.Status {
+  border: 1px #dbdbdb solid;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 15px;
+}
+
+.header .user {
+  display: flex;
+  align-items: center;
+}
+
+.header .user .avatar-user {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.name-user {
+  font-weight: 600;
+}
+
+.header .choice {
+  width: 20px;
+}
+
+.image-content {
+  width: 100%;
+}
+
+.image-content img {
+  width: 100%;
+}
+
+.main-content {
+  padding: 10px 15px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action img {
+  width: 24px;
+  margin: 0px 10px 10px 0px;
+}
+
+.number-like {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.caption {
+  margin-bottom: 4px;
+  display: flex;
+}
+
+.caption .content-caption {
+  padding-left: 5px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.comment p {
+  padding-right: 5px;
+  margin: 0;
+}
+
+.time {
+  color: #888;
+  font-size: 10px;
+}
+
+.add-comment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding: 15px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.add-comment input {
+  border: none;
+  color: #262626;
+}
+
+.add-comment input:focus {
+  outline: none;
+}
+
+.add-comment span {
+  color: #0094f69f;
+  font-weight: 600;
+}

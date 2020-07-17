@@ -15,19 +15,24 @@ function Header(props) {
     <div className="Header">
       <div className="Box-Header">
         <img className="logo" src={logo} alt="logo" />
-        <div className="search">
-          <img className="icon-search" src={searchLogo} alt="search logo" />
-          <input type="text" placeholder="Tìm kiếm" />
-        </div>
-        <div className="menu">
-          <Link to="/"><img className="item-menu" src={homeLogo} alt="home logo" /></Link>
-          <img className="item-menu" src={compassLogo} alt="compass logo" />
-          <img className="item-menu" src={heartLogo} alt="heart logo" />
-          <div
-            className="item-menu avatar"
-            style={{ backgroundImage: `url(${item.avatarUser})` }}
-          ></div>
-        </div>
+        {item && (
+            <div className="search">
+              <img className="icon-search" src={searchLogo} alt="search logo" />
+              <input type="text" placeholder="Tìm kiếm" />
+            </div>
+          ) && (
+            <div className="menu">
+              <Link to="/">
+                <img className="item-menu" src={homeLogo} alt="home logo" />
+              </Link>
+              <img className="item-menu" src={compassLogo} alt="compass logo" />
+              <img className="item-menu" src={heartLogo} alt="heart logo" />
+              <div
+                className="item-menu avatar"
+                style={{ backgroundImage: `url(${item.avatarUser})` }}
+              ></div>
+            </div>
+          )}
       </div>
     </div>
   );

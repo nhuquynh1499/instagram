@@ -92,7 +92,7 @@
   box-shadow: inset 0px 0px 0px 1px #dbdbdb;
   background-color: #fafafa;
   margin: 3px 0px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .SignUp .form-signup button {
@@ -112,6 +112,7 @@
   font-size: 12px;
   padding: 0px;
   margin: 0px 20px;
+  text-align: center;
 }
 
 .SignUp .policy span{

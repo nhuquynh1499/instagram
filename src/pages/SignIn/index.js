@@ -28,7 +28,7 @@ function SignIn() {
           <img src={facebook} alt="facebook" />
           <span>Log in with Facebook</span>
         </button>
-        <Link to="/forgot-pass"className="forgot">
+        <Link to="/forgot-password" className="forgot">
           Forgot Password?
         </Link>
       </div>

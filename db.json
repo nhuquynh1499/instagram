@@ -1,4 +1,12 @@
 {
+  "user": [
+    {
+      "id": "bf0f426f-2c39-457d-a880-8baa253afab2",
+      "userName": "Arturo Scogings",
+      "isLogged": "true",
+      "avatarUser": "https://robohash.org/nonadipiscisint.bmp?size=50x50&set=set1"
+    }
+  ],
   "story": [
     {
       "id": "bf0f426f-2c39-457d-a880-8baa253afab2",

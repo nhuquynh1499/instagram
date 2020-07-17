@@ -1,0 +1,74 @@
+.Header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;  
+}
+
+.Box-Header {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 935px;
+  width: 100%;
+}
+
+
+.Header img {
+  width: 20px;
+}
+ 
+.Header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.Header .logo {
+  width: 100px;
+}
+
+.Header .search {
+  border: solid 1px #dbdbdb;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.Header .search .icon-search {
+  display: flex;
+  align-items: center;
+}
+
+.Header .search input {
+  padding: 0px 5px;
+  border: none;
+  background-color: #fafafa;
+}
+
+.Header .search input:focus {
+  outline: none;
+}
+
+.Header .menu {
+  display: flex;
+  align-items: center;
+}
+
+.Header .menu .item-menu {
+  margin-left: 15px;
+}
+
+.Header .menu .avatar {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  border-radius: 50%;
+}

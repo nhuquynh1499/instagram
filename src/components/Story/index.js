@@ -7,14 +7,14 @@ class Story extends Component {
     const { item } = this.props;
     return (
       <div className="Story">
-        <div class="item-story-infor">
+        <div className="item-story-infor">
           <div
-            class="avatar-user"
+            className="avatar-user"
             style={{ backgroundImage: `url(${item.avatarUser})` }}
           ></div>
-          <div class="infor">
-            <div class="name-user">{item.userName}</div>
-            <div class="time">{item.date}</div>
+          <div className="infor">
+            <div className="name-user">{item.userName}</div>
+            <div className="time">{item.date}</div>
           </div>
         </div>
       </div>

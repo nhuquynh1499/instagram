@@ -3,16 +3,16 @@
     {
       "id": "bf0f426f-2c39-457d-a880-8baa253afab2",
       "userName": "Arturo Scogings",
-      "isLogged": "true",
-      "avatarUser": "https://robohash.org/nonadipiscisint.bmp?size=50x50&set=set1"
+      "avatarUser": "https://robohash.org/nonadipiscisint.bmp?size=50x50&set=set1",
+      "email": "svivers0@dailymotion.com",
+      "password": ""
     }
   ],
   "story": [
     {
       "id": "bf0f426f-2c39-457d-a880-8baa253afab2",
-      "userName": "Arturo Scogings",
+      "userId": "5f1e52bb2d5a19f55be9f8b1",
       "imageContent": "http://dummyimage.com/871x875.jpg/cc0000/ffffff",
-      "avatarUser": "https://robohash.org/nonadipiscisint.bmp?size=50x50&set=set1",
       "date": "11/18/2019"
     },
     {
@@ -46,9 +46,8 @@
   ],
   "status": [{
     "id": "1567d628-2bec-4865-8fd3-f861b709e59f",
-    "userName": "Beauregard Sandyford",
+    "userId": "5f1e52bb2d5a19f55be9f8b1",
     "imageContent": "http://dummyimage.com/921x798.png/cc0000/ffffff",
-    "avatarUser": "https://robohash.org/ametautemconsequatur.jpg?size=50x50&set=set1",
     "date": "6/30/2020",
     "caption": "sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque",
     "likeCount": 69

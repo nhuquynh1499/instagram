@@ -7,6 +7,7 @@
   position: sticky;
   top: 0;
   width: 100%;  
+  z-index: 1;
 }
 
 .Box-Header {
@@ -18,17 +19,12 @@
   width: 100%;
 }
 
-
-.Header img {
-  width: 20px;
-}
- 
 .Header .logo {
   display: flex;
   align-items: center;
 }
 
-.Header .logo {
+.Header .logo img {
   width: 100px;
 }
 
@@ -43,8 +39,12 @@
 }
 
 .Header .search .icon-search {
-  display: flex;
-  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.Header .search .icon-search img {
+  width: 100%;
 }
 
 .Header .search input {
@@ -64,6 +64,8 @@
 
 .Header .menu .item-menu {
   margin-left: 15px;
+  width: 24px;
+  height: 24px;
 }
 
 .Header .menu .avatar {
@@ -71,4 +73,34 @@
   height: 24px;
   background-size: cover;
   border-radius: 50%;
+}
+
+.Header .menu .item-avatar:hover ul {
+  display: block;
+}
+
+.Header ul {
+  position: absolute;
+  right: 0px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 1px #dbdbdb;
+  display: none;
+}
+
+.Header ul li {
+  list-style-type: none;
+  padding: 10px 120px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.Header ul li img {
+  width: 16px;
+  margin: 0px 10px;
+}
+
+.Header ul li:last-child {
+  border-top: 1px #dbdbdb solid;
+  padding-left: 10px;
 }

@@ -18,21 +18,21 @@ class Home extends Component {
 
   componentDidMount() {
     axios
-      .get(`http://localhost:8080/story`)
+      .get(`http://localhost:8000/story`)
       .then((res) => {
         const story = res.data;
         this.setState({ story });
       })
       .catch((error) => console.log(error));
     axios
-      .get(`http://localhost:8080/status`)
+      .get(`http://localhost:8000/status`)
       .then((res) => {
         const status = res.data;
         this.setState({ status });
       })
       .catch((error) => console.log(error));
     axios
-      .get(`http://localhost:8080/user`)
+      .get(`http://localhost:8000/user`)
       .then((res) => {
         const user = res.data;
         this.setState({ user });
@@ -48,8 +48,9 @@ class Home extends Component {
     });
     return (
       <div className="Home">
-        {userIsLogged && <Header item={userIsLogged}/>}
+<Header item={user}/>
         <div className="box-main">
+          <Story users={user}/>
           <div className="main">
             {status.map((item, index) => {
               return <Status item={item} key={index} />;
@@ -68,7 +69,7 @@ class Home extends Component {
                 <div className="name-real">Nhu Quynh</div>
               </div>
             </div>
-            <div className="box-story">
+            {/* <div className="box-story">
               <div className="header-story">
                 <span className="title">Tin</span>
                 <a href="#" className="more">
@@ -80,7 +81,7 @@ class Home extends Component {
                   return <Story item={item} key={index} />;
                 })}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

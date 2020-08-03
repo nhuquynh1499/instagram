@@ -88,11 +88,28 @@
 .SignUp .form-signup .formItem {
   width: 100%;
   border: none;
-  padding: 10px;
-  box-shadow: inset 0px 0px 0px 1px #dbdbdb;
-  background-color: #fafafa;
-  margin: 3px 0px;
-  border-radius: 5px;
+  padding: 7px 10px;
+  box-shadow: inset 0px 0px 0px 1px #eeeeee;
+  margin: 10px 0px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SignUp .form-signup .formItem span {
+  font-size: 11px;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.SignUp .form-signup .formItem input {
+  border: 0px;
+  padding: 0px;
+}
+
+.SignUp .form-signup .formItem input:focus {
+  outline: none;
 }
 
 .SignUp .form-signup button {
@@ -101,6 +118,7 @@
   font-weight: 600;
   font-size: 14px;
   margin: 15px 0px !important;
+  align-items: center !important;
 }
 
 .SignUp .form-signup .formItem:focus {

@@ -4,19 +4,20 @@ import "./style.css";
 
 class Story extends Component {
   render() {
-    const { item } = this.props;
+    const { users } = this.props;
     return (
       <div className="Story">
-        <div className="item-story-infor">
-          <div
-            className="avatar-user"
-            style={{ backgroundImage: `url(${item.avatarUser})` }}
-          ></div>
-          <div className="infor">
-            <div className="name-user">{item.userName}</div>
-            <div className="time">{item.date}</div>
-          </div>
-        </div>
+        {users.map((item, index) => {
+          return (
+            <div className="item-story">
+                <div
+                  className="avatar-user"
+                  style={{ backgroundImage: `url(${item.avatarUser})` }}
+                ></div>
+          <div className="name-user">{item.userName}</div>
+            </div>
+          );
+        })}
       </div>
     );
   }

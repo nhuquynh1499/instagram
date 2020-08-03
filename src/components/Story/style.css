@@ -5,28 +5,27 @@
   height: 52px;
 }
 
-.Story .item-story-infor {
+.Story .item-story {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Story .avatar-user {
   width: 34px;
   height: 34px;
-
   background-size: cover;
   border-radius: 50%;
 }
 
-.Story .infor {
-  margin-left: 14px;
-}
-
-.Story .infor .name-user {
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-
-.Story .infor .time {
-  color: #8e8e8e;
-  font-size: 10px;
+.Story .name-user {
+  font-size: 12px;
+  font-weight: 300;
+  color: #262626;
+  max-width: 64px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  top: 68px;
+  white-space: nowrap;
 }

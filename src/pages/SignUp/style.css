@@ -101,6 +101,7 @@
   color: #a0a0a0;
   text-transform: uppercase;
   font-weight: 600;
+  margin-bottom: 3px;
 }
 
 .SignUp .form-signup .formItem input {

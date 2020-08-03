@@ -56,11 +56,29 @@
 .SignIn .form-SignIn .formItem {
   width: 100%;
   border: none;
-  padding: 10px;
-  box-shadow: inset 0px 0px 0px 1px #dbdbdb;
-  background-color: #fafafa;
-  margin: 3px 0px;
-  border-radius: 5px;
+  padding: 7px 10px;
+  box-shadow: inset 0px 0px 0px 1px #eeeeee;
+  margin: 10px 0px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SignIn .form-SignIn .formItem span {
+  font-size: 11px;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.SignIn .form-SignIn .formItem input {
+  border: 0px;
+  padding: 0px;
+}
+
+.SignIn .form-SignIn .formItem input:focus {
+  outline: none;
 }
 
 .SignIn .form-SignIn button {
@@ -68,7 +86,8 @@
   color: #ffffff !important;
   font-weight: 600;
   font-size: 14px;
-  margin: 10px 0px !important;
+  margin: 15px 0px !important;
+  align-items: center !important;
 }
 
 .SignIn .form-SignIn .formItem:focus {

@@ -1,0 +1,48 @@
+.Suggest {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.Suggest .item-Suggest {
+  display: flex;
+}
+
+.Suggest .avatar-user {
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.Suggest .infor {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Suggest .name-user {
+
+  font-weight: 600;
+  color: #262626;
+}
+
+.Suggest .relationship {
+  color: #8e8e8e;
+}
+
+.Suggest button {
+  border: none;
+  background: 0 0;
+  color: #0095f6;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.Suggest button:focus {
+  outline: none;
+}

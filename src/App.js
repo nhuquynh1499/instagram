@@ -1,15 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import Routes from "./routes/index";
+import { UserProvider } from "./contexts/User";
 import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes />
-      </div>
-    </Router>
+    <UserProvider>
+      <Router>
+        <div className="App">
+          <Routes />
+        </div>
+      </Router>
+    </UserProvider>
   );
 }
 

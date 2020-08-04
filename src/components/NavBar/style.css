@@ -1,0 +1,63 @@
+.NavBar {
+  position: sticky;
+  top: 80px;
+  height: 50vh;
+  width: 100%;
+}
+
+.NavBar .user {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.NavBar .user .avatar {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.NavBar .user .name-user {
+  margin-left: 14px;
+}
+
+.NavBar .user .name-user .name-web {
+  margin-bottom: 2px;
+}
+
+.NavBar .user .name-user .name-real {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.NavBar .box-suggest {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  width: 100%;
+  z-index: auto;
+}
+
+.NavBar .box-suggest .header-suggest {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0px;
+  margin-top: 12px;
+}
+
+.NavBar .box-suggest .header-suggest .title {
+  color: #8e8e8e;
+  font-weight: 600;
+}
+
+.NavBar .box-suggest .header-suggest a {
+  color: #262626;
+  text-decoration: none;
+}
+
+.NavBar .box-suggest .header-suggest .more {
+  font-weight: 600;
+  font-size: 12px;
+}

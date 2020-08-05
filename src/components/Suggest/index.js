@@ -12,7 +12,7 @@ function Suggest(props) {
           style={{ backgroundImage: `url(${user.avatar})` }}
         ></div>
         <div className="infor">
-          <div className="name-user">{user.name}</div>
+          <div className="name-user">{user.username}</div>
           <div className="relationship">Follows you</div>
         </div>
       </div>

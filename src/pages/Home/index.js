@@ -32,17 +32,10 @@ class Home extends Component {
         this.setState({ status });
       })
       .catch((error) => console.log(error));
-    axios
-      .get(`http://localhost:8000/api/user`)
-      .then((res) => {
-        const user = res.data;
-        this.setState({ user });
-      })
-      .catch((error) => console.log(error));
   }
 
   render() {
-    const { story, status, user } = this.state;
+    const { story, status } = this.state;
     return (
       <div className="Home">
         <Header />

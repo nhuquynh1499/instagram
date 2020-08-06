@@ -41,7 +41,14 @@ class Home extends Component {
         <Header />
         <div className="box-main">
           <div>
-          <Story stories={story} />
+          <div className="box-story">
+            {
+              story.map((item, index) => {
+                return <Story story={item} key={index} />
+              })
+            }
+          </div>
+          
           <div className="main">
             {status.map((item, index) => {
               return <Status item={item} key={index} />;
